@@ -18,6 +18,12 @@ func (f *SignMagic) Attack() {
 	fmt.Println("Performing sign magic, Aard! *Pheeeeeew")
 }
 
+type MightyBow struct{}
+
+func (f *MightyBow) Attack() {
+	fmt.Println("Performing attack with mighy bow! *Sheeeeeesh*")
+}
+
 type Character struct {
 	Name   string
 	attack AttackMethod
